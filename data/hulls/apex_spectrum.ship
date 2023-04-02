@@ -1,0 +1,164 @@
+{
+  "hullName": "Spectrum",
+  "hullId": "apex_spectrum",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/apex_spectrum_base.png",
+  "style": "HIGH_TECH",
+  "height": 242,
+  "width": 184,
+  "center": [92, 120],
+  "collisionRadius": 123.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 140,
+  "viewOffset": 0,
+  "builtInMods": [
+    "apex_armor",
+    "apex_expanded_squadrons",
+    "apex_civwhenrefit"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 45,
+      "locations": [72, 63]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": -45,
+      "locations": [72, -63]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 45,
+      "locations": [63, 79]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": -45,
+      "locations": [63, -79]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 135,
+      "locations": [-22, 30]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": -135,
+      "locations": [-22, -30]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 135,
+      "locations": [-40, 30]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": -135,
+      "locations": [-40, -30]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        34.5, 53.5,
+        29, 78,
+        33, 71,
+        37.5, 62.5,
+        40.5, 54.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        34, -54,
+        42.5, -55,
+        39, -62.5,
+        35, -70.5,
+        31, -77
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-105, -22],
+      "length": 72.5,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-105, 22],
+      "length": 72.5,
+      "width": 20,
+      "angle": -180,
+      "contrailSize": 20,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -117.5, 8,
+    -109, 14,
+    -117, 21,
+    -104.5, 35,
+    -67, 36.5,
+    -62, 56,
+    -53, 57,
+    -45, 40.5,
+    26.5, 91.5,
+    63.5, 91,
+    121.5, -0,
+    63.5, -91,
+    26.5, -91.5,
+    -45, -40.5,
+    -53, -57,
+    -62, -56,
+    -67, -36.5,
+    -104.5, -35,
+    -117, -21,
+    -109, -14,
+    -117.5, -8
+  ]
+}

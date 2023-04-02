@@ -1,0 +1,14 @@
+{
+	"id":"apex_excessionsys",
+	"type":"STAT_MOD",
+	"aiType":"WEAPON_BOOST",
+
+	# this is actually the simple part
+	"statsScript":"data.shipsystems.ApexExcessionSystem",
+	
+	"useSound":"apex_excession_system",
+	"loopSound":"system_temporalshell_loop",
+	"deactivateSound":"system_temporalshell_off",
+	
+	"outOfUsesSound":"gun_out_of_ammo",
+}

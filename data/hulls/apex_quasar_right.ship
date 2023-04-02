@@ -1,0 +1,152 @@
+{
+  "hullName": "Quasar Right Wing",
+  "hullId": "apex_quasar_right",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/bounty/apex_quasar_right.png",
+  "style": "HIGH_TECH",
+  "height": 204,
+  "width": 318,
+  "center": [159, 102],
+  "collisionRadius": 182,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 181,
+  "viewOffset": 0,
+  "builtInMods": [
+    "apex_cryo_armor",
+    "advancedcore",
+    "apex_quasar_bricker",
+    "automated"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -21.5,
+      "locations": [34, -24]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -21.5,
+      "locations": [19, 13]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -21.5,
+      "locations": [17, 31]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -21.5,
+      "locations": [6, 56]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -21.5,
+      "locations": [48, -54]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -21.5,
+      "locations": [59, -79]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -21.5,
+      "locations": [-8, 86]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -21.5,
+      "locations": [-47, 118]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -45,
+      "locations": [-58, 93]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 1,
+      "angle": -160,
+      "locations": [19, -69]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 1,
+      "angle": -128,
+      "locations": [36, -92]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-42, -0],
+      "length": 38,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-42, -10],
+      "length": 38,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    102, -132.5,
+    71, -144,
+    -21, -17.5,
+    -33.5, -25,
+    -45, -14.5,
+    -43.5, 4.5,
+    -101, 37,
+    -52.5, 159.5,
+    -44.5, 144,
+    -16, 128,
+    3, 137.5
+  ]
+}

@@ -1,0 +1,21 @@
+{
+	"id":"apex_uplink",
+	"type":"STAT_MOD",
+	#"aiType":"DAMPER_FIELD",
+	"aiType":"CUSTOM",
+	
+	"aiScript":"data.shipsystems.ai.ApexDefenseUplinkAI",
+	"statsScript":"data.shipsystems.ApexDefenseUplink",
+
+	"canUseWhileRightClickSystemOn":false,
+
+	"useSound":"system_targeting_feed",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}
+
+}
+
+
+
